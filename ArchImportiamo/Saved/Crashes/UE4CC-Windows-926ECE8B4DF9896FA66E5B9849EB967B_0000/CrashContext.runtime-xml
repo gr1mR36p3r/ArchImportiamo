@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-926ECE8B4DF9896FA66E5B9849EB967B_0000</CrashGUID>
+<ProcessId>9764</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>42</SecondsSinceStart>
+<GameName>UE4-ArchImportiamo</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Vanilla</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.16.1-3466753+++UE4+Release-4.16</EngineVersion>
+<CommandLine>&quot;C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/ArchImportiamo.uproject&quot;-EpicPortal </CommandLine>
+<LanguageLCID>1040</LanguageLCID>
+<AppDefaultLocale>it-IT</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.16-CL-3466753</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/UE_4.16/</RootDir>
+<MachineId>45A8F4CF48DE3D1A6C2CC68578B53B47</MachineId>
+<LoginId>45a8f4cf48de3d1a6c2cc68578b53b47</LoginId>
+<EpicAccountId>68b28449b37e4eac99203910d9fdba96</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;Viewport 1&quot; Content=SViewportsOverlay</UserActivityHint>
+<ErrorMessage>Fatal error: [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMemory.cpp] [Line: 170] &nl;Ran out of memory allocating 52656 bytes with alignment 0&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 520</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8511385600</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>1836351488</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140709074673664</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>2724913152</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>6044954624</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>27632611328</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>27672662016</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>1</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>52656</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>

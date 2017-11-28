@@ -1,0 +1,1275 @@
+﻿Log file open, 11/28/17 11:05:16
+LogInit:Display: Running engine for game: ArchImportiamo
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-493124526) SRandInit(-493124526).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.374872
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.28-10.05.17:663][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-10.05.17:663][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.28-10.05.17:690][  0]LogInit: Computer: SCYTHE-3
+[2017.11.28-10.05.17:690][  0]LogInit: User: giuli
+[2017.11.28-10.05.17:690][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.11.28-10.05.17:690][  0]LogInit: High frequency timer resolution =2.437499 MHz
+[2017.11.28-10.05.17:691][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.28-10.05.17:691][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.28-10.05.17:691][  0]LogMemory: Process Physical Memory: 272.89 MB used, 272.89 MB peak
+[2017.11.28-10.05.17:691][  0]LogMemory: Process Virtual Memory: 258.67 MB used, 258.67 MB peak
+[2017.11.28-10.05.17:691][  0]LogMemory: Physical Memory: 5546.11 MB used,  2570.98 MB free, 8117.09 MB total
+[2017.11.28-10.05.17:691][  0]LogMemory: Virtual Memory: 667.74 MB used,  2570.98 MB free, 134217728.00 MB total
+[2017.11.28-10.05.18:147][  0]LogInit: Using OS detected language (it-IT).
+[2017.11.28-10.05.18:147][  0]LogInit: Using OS detected locale (it-IT).
+[2017.11.28-10.05.18:173][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2017.11.28-10.05.18:173][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2017.11.28-10.05.20:042][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.28-10.05.20:051][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.11.28-10.05.20:051][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.11.28-10.05.20:054][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.28-10.05.20:054][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.28-10.05.20:054][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.28-10.05.20:068][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.28-10.05.20:068][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.28-10.05.20:068][  0]LogWindows: EnumDisplayDevices:
+[2017.11.28-10.05.20:069][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.11.28-10.05.20:069][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.11.28-10.05.20:069][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.11.28-10.05.20:069][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.28-10.05.20:069][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.11.28-10.05.20:069][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.28-10.05.20:069][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.28-10.05.20:069][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.28-10.05.20:076][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.28-10.05.20:117][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.11.28-10.05.20:127][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Intermediate/Shaders/WorkingDirectory/10616/).
+[2017.11.28-10.05.20:128][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/giuli/AppData/Local/Temp/UnrealShaderWorkingDir/F24267D84D996C946CD5489B3AD5919C/'.
+[2017.11.28-10.05.20:129][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.28-10.05.23:268][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.28-10.05.23:361][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.28-10.05.23:452][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.28-10.05.23:558][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.28-10.05.23:663][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.28-10.05.23:766][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.28-10.05.23:864][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.28-10.05.23:962][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.28-10.05.24:050][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.28-10.05.24:147][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.28-10.05.24:242][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.28-10.05.24:333][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.28-10.05.24:428][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.28-10.05.24:527][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.28-10.05.24:619][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.28-10.05.24:813][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.28-10.05.24:813][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.28-10.05.24:903][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.28-10.05.25:099][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.28-10.05.25:161][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.28-10.05.25:256][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.28-10.05.25:347][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.28-10.05.25:443][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.28-10.05.25:542][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.28-10.05.25:542][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.28-10.05.26:913][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.28-10.05.26:914][  0]LogDerivedDataCache:Display: Ignoring memory cache (C:/Users/giuli/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc) with old version number (0cac1ddc)
+[2017.11.28-10.05.26:915][  0]LogDerivedDataCache:Warning: Could not load Boot cache: C:/Users/giuli/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.28-10.05.26:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.28-10.05.26:915][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.28-10.05.26:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.28-10.05.26:915][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.28-10.05.26:944][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.28-10.05.26:958][  0]LogDerivedDataCache: Using Local data cache path C:/Users/giuli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.28-10.05.27:000][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.28-10.05.27:010][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.28-10.05.27:017][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-10.05.27:017][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-10.05.31:058][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-10.05.31:495][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.28-10.05.31:863][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.28-10.05.31:969][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.28-10.05.32:063][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.28-10.05.32:063][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.28-10.05.32:063][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.28-10.05.33:954][  0]LogNetVersion: ArchImportiamo , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 788347396)
+[2017.11.28-10.05.34:072][  0]LogAssetRegistry: FAssetRegistry took 0.0313 seconds to start up
+[2017.11.28-10.05.34:197][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.058809 seconds
+[2017.11.28-10.05.34:211][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.28-10.05.34:211][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.28-10.05.34:211][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.28-10.05.34:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.28-10.05.44:511][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.28-10.05.44:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.28-10.05.45:795][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.28-10.05.46:673][  0]SourceControl: Info Source control is disabled
+[2017.11.28-10.05.46:798][  0]SourceControl: Info Source control is disabled
+[2017.11.28-10.05.46:907][  0]SourceControl: Info Source control is disabled
+[2017.11.28-10.05.47:007][  0]SourceControl: Info Source control is disabled
+[2017.11.28-10.05.48:567][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.28-10.05.49:803][  0]LogEngine: Initializing Engine...
+[2017.11.28-10.05.49:807][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.28-10.05.50:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.28-10.05.50:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.28-10.05.50:797][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.28-10.05.50:820][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.28-10.05.50:852][  0]LogInit: FAudioDevice initialized.
+[2017.11.28-10.05.50:903][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/giuli/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.28-10.05.50:912][  0]LogInit: Texture streaming: Enabled
+[2017.11.28-10.05.51:138][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.28-10.05.51:671][  0]LogInit: Transaction tracking system initialized
+[2017.11.28-10.05.52:384][  0]BlueprintLog: New page: Editor Load
+[2017.11.28-10.05.54:538][  0]LocalizationService: Info Localization service is disabled
+[2017.11.28-10.05.56:026][  0]LogConsoleResponse:Display: 
+[2017.11.28-10.05.56:376][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.28-10.05.56:376][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.28-10.05.57:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/' took 0.02s
+[2017.11.28-10.05.58:744][  0]SourceControl: Info Source control is disabled
+[2017.11.28-10.05.58:749][  0]Cmd: MAP LOAD FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.28-10.05.58:753][  0]LightingResults: New page: Lighting Build
+[2017.11.28-10.05.58:842][  0]MapCheck: New page: Map Check
+[2017.11.28-10.05.58:842][  0]LightingResults: New page: Lighting Build
+[2017.11.28-10.06.00:017][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.28-10.06.00:074][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.28-10.06.00:112][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.28-10.06.00:186][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.103ms to complete.
+[2017.11.28-10.06.00:186][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.439
+[2017.11.28-10.06.00:305][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.28-10.06.00:306][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.28-10.06.00:519][  0]LogCollectionManager: Loaded 0 collections in 0.002053 seconds
+[2017.11.28-10.06.00:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Collections/' took 0.01s
+[2017.11.28-10.06.00:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/Developers/giuli/Collections/' took 0.01s
+[2017.11.28-10.06.00:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/Collections/' took 0.01s
+[2017.11.28-10.06.00:690][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.28-10.06.00:708][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2329 classes and 491 folders.
+[2017.11.28-10.06.00:835][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.28-10.06.01:239][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.28-10.06.01:342][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.28-10.06.01:504][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.28-10.06.01:523][  0]LogSlate: Took 0.002205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.28-10.06.01:532][  0]LogSlate: Took 0.002115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.28-10.06.01:545][  0]LogSlate: Took 0.002225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.28-10.06.01:735][  0]LogRenderer: Reallocating scene render targets to support 784x524 NumSamples 1 (Frame:1).
+[2017.11.28-10.06.02:897][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.28-10.06.03:034][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.28-10.06.03:035][  0]LogLoad: (Engine Initialization) Total time: 49.68 seconds
+[2017.11.28-10.06.03:035][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.11.28-10.06.03:035][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.28-10.06.03:035][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.28-10.06.03:064][  0]LogOcInput: OculusInput pre-init called
+[2017.11.28-10.06.03:064][  0]LogHMD: Starting GearVRController plugin
+[2017.11.28-10.06.03:092][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.28-10.06.03:579][  4]LogAssetRegistry: Asset discovery search completed in 29.5288 seconds
+[2017.11.28-10.06.03:588][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.28-10.06.03:588][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000910 seconds (updated 0 objects)
+[2017.11.28-10.06.13:782][270]LogSlate: Took 0.002560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-10.07.57:527][566]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-10.07.57:556][566]LogAssetTools:Warning: Failed to import 'C:\Users\giuli\OneDrive\Documents\programmazione - meshes\Batmobile Tumbler\Batmobile Tumbler\Batmobile Tumbler v2.3ds'. Unknown extension '3ds'.
+[2017.11.28-10.07.57:571][566]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-10.08.04:925][646]LogSlate: Took 0.002757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.28-10.08.44:798][146]LogAssetTools:Warning: Failed to import 'C:\Users\giuli\OneDrive\Documents\programmazione - meshes\M1 Abraham\MAX file.max'. Unknown extension 'max'.
+[2017.11.28-10.08.54:152][174]LogAssetTools:Warning: Failed to import 'C:\Users\giuli\OneDrive\Documents\programmazione - meshes\M1 Abraham\3ds file.3DS'. Unknown extension '3DS'.
+[2017.11.28-10.09.35:145][289]LogAssetTools:Warning: Failed to import 'C:\Users\giuli\OneDrive\Documents\programmazione - meshes\Leopard 2A6\Leopard_2A6\Leopard_2A6.blend'. Unknown extension 'blend'.
+[2017.11.28-10.12.46:822][952]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\giuli\OneDrive\Documents\programmazione - meshes\Leopard 2A6\Leopard_2A6.fbx)
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: NodeAttribute, ItemCount : 4
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: Geometry, ItemCount : 18
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: Model, ItemCount : 22
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: Material, ItemCount : 26
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: Texture, ItemCount : 30
+[2017.11.28-10.12.46:911][952]LogFbx: ItemName: Video, ItemCount : 15
+[2017.11.28-10.12.46:925][952]LogFbx: Loading FBX Scene from C:\Users\giuli\OneDrive\Documents\programmazione - meshes\Leopard 2A6\Leopard_2A6.fbx
+[2017.11.28-10.12.47:225][952]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-10.12.51:045][952]LogFbx: Loading FBX Scene from C:\Users\giuli\OneDrive\Documents\programmazione - meshes\Leopard 2A6\Leopard_2A6.fbx
+[2017.11.28-10.12.51:348][952]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-10.12.51:360][952]LogLinker: Can't find file '/Game/tank/plane'
+[2017.11.28-10.12.51:360][952]LogLinker: Can't find file '/Game/tank/plane'
+[2017.11.28-10.12.51:380][952]LogMaterial: Missing cached shader map for material plane, compiling. 
+[2017.11.28-10.12.51:428][952]LogFbx:Warning: Triangulating static mesh Плоскость
+[2017.11.28-10.12.51:436][952]LogStaticMesh: Building static mesh Leopard_2A6_Плоскость...
+[2017.11.28-10.12.51:444][952]LogStaticMesh: Built static mesh [0.01s] /Game/tank/Leopard_2A6_Плоскость.Leopard_2A6_Плоскость
+[2017.11.28-10.12.51:452][952]LogLinker: Can't find file '/Game/tank/number_back'
+[2017.11.28-10.12.51:452][952]LogLinker: Can't find file '/Game/tank/number_back'
+[2017.11.28-10.12.51:456][952]LogLinker: Can't find file '/Game/tank/LEOPMA2T'
+[2017.11.28-10.12.51:456][952]LogLinker: Can't find file '/Game/tank/LEOPMA2T'
+[2017.11.28-10.12.51:511][952]LogTexture:Display: Building textures: LEOPMA2T (BGRA8, 198X131)
+[2017.11.28-10.12.51:579][952]LogTexture:Display: Building textures: LEOPMA2T (BGRA8, 198X131)
+[2017.11.28-10.12.51:591][952]LogMaterial: Missing cached shader map for material number_back, compiling. 
+[2017.11.28-10.12.51:619][952]LogStaticMesh: Building static mesh Leopard_2A6_Tank_Base_001...
+[2017.11.28-10.12.51:620][952]LogStaticMesh: Built static mesh [0.00s] /Game/tank/Leopard_2A6_Tank_Base_001.Leopard_2A6_Tank_Base_001
+[2017.11.28-10.12.51:642][952]LogLinker: Can't find file '/Game/tank/BlackGlass_Base'
+[2017.11.28-10.12.51:643][952]LogLinker: Can't find file '/Game/tank/BlackGlass_Base'
+[2017.11.28-10.12.51:650][952]LogMaterial: Missing cached shader map for material BlackGlass_Base, compiling. 
+[2017.11.28-10.12.51:676][952]LogLinker: Can't find file '/Game/tank/Up3'
+[2017.11.28-10.12.51:676][952]LogLinker: Can't find file '/Game/tank/Up3'
+[2017.11.28-10.12.51:680][952]LogLinker: Can't find file '/Game/tank/metal_normal_2'
+[2017.11.28-10.12.51:681][952]LogLinker: Can't find file '/Game/tank/metal_normal_2'
+[2017.11.28-10.12.52:216][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.01:230][952]LogSlate: Took 0.001637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.28-10.13.01:388][952]LogTexture:Display: Building textures: Up4 (AutoDXT, 1024X1024)
+[2017.11.28-10.13.03:189][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.10:258][952]LogMaterial: Missing cached shader map for material Up3, compiling. 
+[2017.11.28-10.13.10:279][952]LogLinker: Can't find file '/Game/tank/Gun'
+[2017.11.28-10.13.10:279][952]LogLinker: Can't find file '/Game/tank/Gun'
+[2017.11.28-10.13.10:409][952]LogTexture:Display: Building textures: Up5 (AutoDXT, 1024X1024)
+[2017.11.28-10.13.12:104][952]LogMaterial: Missing cached shader map for material Gun, compiling. 
+[2017.11.28-10.13.12:129][952]LogFbx:Warning: Triangulating static mesh Up3
+[2017.11.28-10.13.16:471][952]LogStaticMesh: Building static mesh Leopard_2A6_Up3...
+[2017.11.28-10.13.17:309][952]LogStaticMesh: Built static mesh [0.84s] /Game/tank/Leopard_2A6_Up3.Leopard_2A6_Up3
+[2017.11.28-10.13.17:611][952]LogLinker: Can't find file '/Game/tank/number_001'
+[2017.11.28-10.13.17:611][952]LogLinker: Can't find file '/Game/tank/number_001'
+[2017.11.28-10.13.17:615][952]LogLinker: Can't find file '/Game/tank/Down2'
+[2017.11.28-10.13.17:615][952]LogLinker: Can't find file '/Game/tank/Down2'
+[2017.11.28-10.13.17:985][952]LogTexture:Display: Building textures: Down2 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.24:055][952]LogMaterial: Missing cached shader map for material number_001, compiling. 
+[2017.11.28-10.13.24:079][952]LogLinker: Can't find file '/Game/tank/red_light'
+[2017.11.28-10.13.24:080][952]LogLinker: Can't find file '/Game/tank/red_light'
+[2017.11.28-10.13.24:087][952]LogMaterial: Missing cached shader map for material red_light, compiling. 
+[2017.11.28-10.13.24:110][952]LogLinker: Can't find file '/Game/tank/Down1'
+[2017.11.28-10.13.24:111][952]LogLinker: Can't find file '/Game/tank/Down1'
+[2017.11.28-10.13.24:688][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.33:084][952]LogTexture:Display: Building textures: Down3 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.39:654][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.46:491][952]LogMaterial: Missing cached shader map for material Down1, compiling. 
+[2017.11.28-10.13.46:510][952]LogLinker: Can't find file '/Game/tank/001'
+[2017.11.28-10.13.46:511][952]LogLinker: Can't find file '/Game/tank/001'
+[2017.11.28-10.13.46:960][952]LogTexture:Display: Building textures: Down4 (AutoDXT, 2048X2048)
+[2017.11.28-10.13.53:689][952]LogMaterial: Missing cached shader map for material 001_2, compiling. 
+[2017.11.28-10.13.53:716][952]LogFbx:Warning: Triangulating static mesh Tank_Base
+[2017.11.28-10.14.02:294][952]LogStaticMesh: Building static mesh Leopard_2A6_Tank_Base...
+[2017.11.28-10.14.05:744][952]LogStaticMesh: Built static mesh [3.45s] /Game/tank/Leopard_2A6_Tank_Base.Leopard_2A6_Tank_Base
+[2017.11.28-10.14.06:452][952]LogLinker: Can't find file '/Game/tank/orange_light'
+[2017.11.28-10.14.06:452][952]LogLinker: Can't find file '/Game/tank/orange_light'
+[2017.11.28-10.14.06:460][952]LogMaterial: Missing cached shader map for material orange_light, compiling. 
+[2017.11.28-10.14.06:476][952]LogLinker: Can't find file '/Game/tank/Tank_3_001'
+[2017.11.28-10.14.06:477][952]LogLinker: Can't find file '/Game/tank/Tank_3_001'
+[2017.11.28-10.14.06:493][952]LogMaterial: Missing cached shader map for material Tank_3_001, compiling. 
+[2017.11.28-10.14.06:515][952]LogLinker: Can't find file '/Game/tank/Rubber_3_001'
+[2017.11.28-10.14.06:516][952]LogLinker: Can't find file '/Game/tank/Rubber_3_001'
+[2017.11.28-10.14.06:524][952]LogMaterial: Missing cached shader map for material Rubber_3_001, compiling. 
+[2017.11.28-10.14.06:548][952]LogLinker: Can't find file '/Game/tank/vida_3_001'
+[2017.11.28-10.14.06:548][952]LogLinker: Can't find file '/Game/tank/vida_3_001'
+[2017.11.28-10.14.06:556][952]LogMaterial: Missing cached shader map for material vida_3_001, compiling. 
+[2017.11.28-10.14.06:580][952]LogLinker: Can't find file '/Game/tank/wire_145028177'
+[2017.11.28-10.14.06:581][952]LogLinker: Can't find file '/Game/tank/wire_145028177'
+[2017.11.28-10.14.06:958][952]LogTexture:Display: Building textures: Down2 (AutoDXT, 2048X2048)
+[2017.11.28-10.14.14:775][952]LogMaterial: Missing cached shader map for material wire_145028177, compiling. 
+[2017.11.28-10.14.15:339][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.14.23:774][952]LogTexture:Display: Building textures: Down2 (AutoDXT, 2048X2048)
+[2017.11.28-10.14.30:080][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.14.36:975][952]LogMaterial: Missing cached shader map for material Down5, compiling. 
+[2017.11.28-10.14.37:000][952]LogFbx:Warning: Triangulating static mesh Circle.003_Circle.020
+[2017.11.28-10.14.49:059][952]LogStaticMesh: Building static mesh Leopard_2A6_Circle_003_Circle_020...
+[2017.11.28-10.14.52:859][952]LogStaticMesh: Built static mesh [3.80s] /Game/tank/Leopard_2A6_Circle_003_Circle_020.Leopard_2A6_Circle_003_Circle_020
+[2017.11.28-10.14.53:186][952]LogStaticMesh:Warning: Leopard_2A6_Circle_003_Circle_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-10.14.53:519][952]LogLinker: Can't find file '/Game/tank/Rubber_katok'
+[2017.11.28-10.14.53:520][952]LogLinker: Can't find file '/Game/tank/Rubber_katok'
+[2017.11.28-10.14.53:524][952]LogLinker: Can't find file '/Game/tank/rubber'
+[2017.11.28-10.14.53:524][952]LogLinker: Can't find file '/Game/tank/rubber'
+[2017.11.28-10.14.53:636][952]LogTexture:Display: Building textures: rubber (AutoDXT, 1024X1024)
+[2017.11.28-10.14.53:918][952]LogLinker: Can't find file '/Game/tank/katok'
+[2017.11.28-10.14.53:918][952]LogLinker: Can't find file '/Game/tank/katok'
+[2017.11.28-10.14.53:919][952]LogFbxMaterialImport:Warning: Unable to find Texture file C:\Users\Psychedelic\Desktop\Leopard_Blendswap\katok.png
+[2017.11.28-10.14.54:024][952]LogTexture:Display: Building textures: rubber (AutoDXT, 1024X1024)
+[2017.11.28-10.14.54:271][952]LogMaterial: Missing cached shader map for material Rubber_katok, compiling. 
+[2017.11.28-10.14.54:292][952]LogLinker: Can't find file '/Game/tank/Tank_katok'
+[2017.11.28-10.14.54:293][952]LogLinker: Can't find file '/Game/tank/Tank_katok'
+[2017.11.28-10.14.54:835][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.15.02:363][952]LogFbxMaterialImport:Warning: Unable to find Texture file C:\Users\Psychedelic\Desktop\Leopard_Blendswap\katok.png
+[2017.11.28-10.15.02:765][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.15.09:636][952]LogMaterial: Missing cached shader map for material Tank_katok, compiling. 
+[2017.11.28-10.15.09:655][952]LogLinker: Can't find file '/Game/tank/wheel_red'
+[2017.11.28-10.15.09:655][952]LogLinker: Can't find file '/Game/tank/wheel_red'
+[2017.11.28-10.15.09:659][952]LogFbxMaterialImport:Warning: Unable to find Texture file C:\Users\Psychedelic\Desktop\Leopard_Blendswap\katok.png
+[2017.11.28-10.15.09:663][952]LogMaterial: Missing cached shader map for material wheel_red, compiling. 
+[2017.11.28-10.15.09:688][952]LogFbx:Warning: Triangulating static mesh Circle.009_Circle.013
+[2017.11.28-10.15.18:258][952]LogStaticMesh: Building static mesh Leopard_2A6_Circle_009_Circle_013...
+[2017.11.28-10.15.20:297][952]LogStaticMesh: Built static mesh [2.04s] /Game/tank/Leopard_2A6_Circle_009_Circle_013.Leopard_2A6_Circle_009_Circle_013
+[2017.11.28-10.15.20:626][952]LogLinker: Can't find file '/Game/tank/Tank_001'
+[2017.11.28-10.15.20:627][952]LogLinker: Can't find file '/Game/tank/Tank_001'
+[2017.11.28-10.15.21:062][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.15.27:994][952]LogLinker: Can't find file '/Game/tank/2'
+[2017.11.28-10.15.27:994][952]LogLinker: Can't find file '/Game/tank/2'
+[2017.11.28-10.15.28:286][952]LogTexture:Display: Building textures: 2_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.15.34:195][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.15.40:989][952]LogMaterial: Missing cached shader map for material Tank_001, compiling. 
+[2017.11.28-10.15.41:011][952]LogLinker: Can't find file '/Game/tank/Материал_005'
+[2017.11.28-10.15.41:011][952]LogLinker: Can't find file '/Game/tank/Материал_005'
+[2017.11.28-10.15.41:395][952]LogTexture:Display: Building textures: 2_3 (AutoDXT, 2048X2048)
+[2017.11.28-10.15.47:662][952]LogMaterial: Missing cached shader map for material Материал_005, compiling. 
+[2017.11.28-10.15.47:683][952]LogFbx:Warning: Triangulating static mesh Circle.002
+[2017.11.28-10.15.48:477][952]LogStaticMesh: Building static mesh Leopard_2A6_Circle_002...
+[2017.11.28-10.15.48:603][952]LogStaticMesh: Built static mesh [0.13s] /Game/tank/Leopard_2A6_Circle_002.Leopard_2A6_Circle_002
+[2017.11.28-10.15.48:668][952]LogFbx:Warning: Triangulating static mesh Cube.000_Cube.000
+[2017.11.28-10.15.59:956][952]LogStaticMesh: Building static mesh Leopard_2A6_Cube_000_Cube_000...
+[2017.11.28-10.16.01:390][952]LogStaticMesh: Built static mesh [1.44s] /Game/tank/Leopard_2A6_Cube_000_Cube_000.Leopard_2A6_Cube_000_Cube_000
+[2017.11.28-10.16.01:701][952]LogStaticMesh:Warning: Leopard_2A6_Cube_000_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-10.16.02:436][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.16.09:506][952]LogTexture:Display: Building textures: Down3 (AutoDXT, 2048X2048)
+[2017.11.28-10.16.13:976][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.16.20:733][952]LogMaterial: Missing cached shader map for material Down6, compiling. 
+[2017.11.28-10.16.20:751][952]LogFbx:Warning: Triangulating static mesh Box0ewfef
+[2017.11.28-10.16.23:278][952]LogStaticMesh: Building static mesh Leopard_2A6_Box0ewfef...
+[2017.11.28-10.16.23:736][952]LogStaticMesh: Built static mesh [0.47s] /Game/tank/Leopard_2A6_Box0ewfef.Leopard_2A6_Box0ewfef
+[2017.11.28-10.16.23:859][952]LogLinker: Can't find file '/Game/tank/17___Default'
+[2017.11.28-10.16.23:860][952]LogLinker: Can't find file '/Game/tank/17___Default'
+[2017.11.28-10.16.23:864][952]LogLinker: Can't find file '/Game/tank/LEOPMATT'
+[2017.11.28-10.16.23:864][952]LogLinker: Can't find file '/Game/tank/LEOPMATT'
+[2017.11.28-10.16.23:864][952]LogFbxMaterialImport:Warning: Unable to find Texture file E:\Archive\temp\Leopard_Blendswap\LEOPMATT.JPG
+[2017.11.28-10.16.23:865][952]LogFbxMaterialImport:Warning: Unable to find Texture file E:\Archive\temp\Leopard_Blendswap\LEOPMATT.JPG
+[2017.11.28-10.16.23:869][952]LogMaterial: Missing cached shader map for material 17___Default, compiling. 
+[2017.11.28-10.16.23:893][952]LogFbx:Warning: Triangulating static mesh Box72
+[2017.11.28-10.16.23:897][952]LogStaticMesh: Building static mesh Leopard_2A6_Box72...
+[2017.11.28-10.16.23:900][952]LogStaticMesh: Built static mesh [0.00s] /Game/tank/Leopard_2A6_Box72.Leopard_2A6_Box72
+[2017.11.28-10.16.23:911][952]LogLinker: Can't find file '/Game/tank/16___Default'
+[2017.11.28-10.16.23:911][952]LogLinker: Can't find file '/Game/tank/16___Default'
+[2017.11.28-10.16.24:449][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.16.32:269][952]LogLinker: Can't find file '/Game/tank/6_1'
+[2017.11.28-10.16.32:269][952]LogLinker: Can't find file '/Game/tank/6_1'
+[2017.11.28-10.16.32:269][952]LogFbxMaterialImport:Warning: Unable to find Texture file E:\Archive\temp\Leopard_Blendswap\6_1.png
+[2017.11.28-10.16.32:697][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.16.39:432][952]LogMaterial: Missing cached shader map for material 16___Default, compiling. 
+[2017.11.28-10.16.39:449][952]LogFbx:Warning: Triangulating static mesh Cylinder80
+[2017.11.28-10.16.39:465][952]LogStaticMesh: Building static mesh Leopard_2A6_Cylinder80...
+[2017.11.28-10.16.39:467][952]LogStaticMesh: Built static mesh [0.00s] /Game/tank/Leopard_2A6_Cylinder80.Leopard_2A6_Cylinder80
+[2017.11.28-10.16.39:478][952]LogFbx:Warning: Triangulating static mesh Cylinder303
+[2017.11.28-10.16.39:498][952]LogStaticMesh: Building static mesh Leopard_2A6_Cylinder303...
+[2017.11.28-10.16.39:501][952]LogStaticMesh: Built static mesh [0.00s] /Game/tank/Leopard_2A6_Cylinder303.Leopard_2A6_Cylinder303
+[2017.11.28-10.16.39:512][952]LogFbx:Warning: Triangulating static mesh Cylinder304
+[2017.11.28-10.16.39:531][952]LogStaticMesh: Building static mesh Leopard_2A6_Cylinder304...
+[2017.11.28-10.16.39:534][952]LogStaticMesh: Built static mesh [0.00s] /Game/tank/Leopard_2A6_Cylinder304.Leopard_2A6_Cylinder304
+[2017.11.28-10.16.39:546][952]LogFbx:Warning: Triangulating static mesh Cylinder305
+[2017.11.28-10.16.39:565][952]LogStaticMesh: Building static mesh Leopard_2A6_Cylinder305...
+[2017.11.28-10.16.39:568][952]LogStaticMesh: Built static mesh [0.00s] /Game/tank/Leopard_2A6_Cylinder305.Leopard_2A6_Cylinder305
+[2017.11.28-10.16.39:580][952]LogLinker: Can't find file '/Game/tank/Crot2'
+[2017.11.28-10.16.39:581][952]LogLinker: Can't find file '/Game/tank/Crot2'
+[2017.11.28-10.16.39:645][952]LogTexture:Display: Building textures: Crot3 (AutoDXT, 512X256)
+[2017.11.28-10.16.39:909][952]LogLinker: Can't find file '/Game/tank/Crot2_AO'
+[2017.11.28-10.16.39:909][952]LogLinker: Can't find file '/Game/tank/Crot2_AO'
+[2017.11.28-10.16.39:973][952]LogTexture:Display: Building textures: Crot2_AO (AutoDXT, 512X256)
+[2017.11.28-10.16.40:263][952]LogTexture:Display: Building textures: Crot4 (AutoDXT, 512X256)
+[2017.11.28-10.16.40:522][952]LogMaterial: Missing cached shader map for material Crot2, compiling. 
+[2017.11.28-10.16.40:546][952]LogLinker: Can't find file '/Game/tank/Up1'
+[2017.11.28-10.16.40:546][952]LogLinker: Can't find file '/Game/tank/Up1'
+[2017.11.28-10.16.41:089][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.16.50:319][952]LogTexture:Display: Building textures: Up2 (AutoDXT, 4096X4096)
+[2017.11.28-10.17.12:450][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.17.19:837][952]LogMaterial: Missing cached shader map for material Up1, compiling. 
+[2017.11.28-10.17.19:857][952]LogFbx:Warning: Triangulating static mesh Up1
+[2017.11.28-10.17.23:831][952]LogStaticMesh: Building static mesh Leopard_2A6_Up1...
+[2017.11.28-10.17.24:614][952]LogStaticMesh: Built static mesh [0.78s] /Game/tank/Leopard_2A6_Up1.Leopard_2A6_Up1
+[2017.11.28-10.17.25:286][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.17.33:282][952]LogTexture:Display: Building textures: Up2 (AutoDXT, 2048X2048)
+[2017.11.28-10.17.39:613][952]LogTexture:Display: Building textures: metal_normal_2 (AutoDXT, 2048X2048)
+[2017.11.28-10.17.46:448][952]LogMaterial: Missing cached shader map for material Up6, compiling. 
+[2017.11.28-10.17.46:466][952]LogFbx:Warning: Triangulating static mesh Up2
+[2017.11.28-10.17.55:033][952]LogStaticMesh: Building static mesh Leopard_2A6_Up2...
+[2017.11.28-10.17.57:944][952]LogStaticMesh: Built static mesh [2.91s] /Game/tank/Leopard_2A6_Up2.Leopard_2A6_Up2
+[2017.11.28-10.17.58:127][952]LogStaticMesh:Warning: Leopard_2A6_Up2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-10.17.58:313][952]LogFbx:Warning: Triangulating static mesh Tube02.001
+[2017.11.28-10.17.59:289][952]LogStaticMesh: Building static mesh Leopard_2A6_Tube02_001...
+[2017.11.28-10.17.59:480][952]LogStaticMesh: Built static mesh [0.19s] /Game/tank/Leopard_2A6_Tube02_001.Leopard_2A6_Tube02_001
+[2017.11.28-10.17.59:556][952]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.28-10.17.59:556][952]FBXImport:Warning: Warning Leopard_2A6_Circle_003_Circle_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-10.17.59:557][952]FBXImport:Error: Error No triangles were found on mesh  'BezierCurve.001' 
+[2017.11.28-10.17.59:557][952]FBXImport:Warning: Warning Leopard_2A6_Cube_000_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-10.17.59:557][952]FBXImport:Warning: Warning Leopard_2A6_Up2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-10.18.12:965][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.029
+[2017.11.28-10.18.12:972][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Плоскость] ([1] browsable assets)...
+[2017.11.28-10.18.13:014][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Плоскость.Leopard_2A6_Плоскость]
+[2017.11.28-10.18.13:014][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Плоскость]
+[2017.11.28-10.18.13:038][347]LogSavePackage: Save=19.26ms
+[2017.11.28-10.18.13:039][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Плоскость_Auto1C33D1AAE4C8941D0D37AF7B5B87793C9.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Плоскость_Auto1.uasset'
+[2017.11.28-10.18.13:042][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Плоскость_Auto1.uasset
+[2017.11.28-10.18.13:044][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/plane] ([1] browsable assets)...
+[2017.11.28-10.18.13:085][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/plane.plane]
+[2017.11.28-10.18.13:086][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/plane]
+[2017.11.28-10.18.13:103][347]LogSavePackage: Save=14.48ms
+[2017.11.28-10.18.13:103][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/plane_Auto1491C902C417EAF313C9865A7E1C5E58E.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/plane_Auto1.uasset'
+[2017.11.28-10.18.13:106][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/plane_Auto1.uasset
+[2017.11.28-10.18.13:108][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Tank_Base_001] ([1] browsable assets)...
+[2017.11.28-10.18.13:148][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Tank_Base_001.Leopard_2A6_Tank_Base_001]
+[2017.11.28-10.18.13:148][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Tank_Base_001]
+[2017.11.28-10.18.13:174][347]LogSavePackage: Save=22.54ms
+[2017.11.28-10.18.13:174][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Tank_Base_001_Auto118BD798D4BEE652E229768B43BA915A3.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Tank_Base_001_Auto1.uasset'
+[2017.11.28-10.18.13:178][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Tank_Base_001_Auto1.uasset
+[2017.11.28-10.18.13:180][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/number_back] ([1] browsable assets)...
+[2017.11.28-10.18.13:235][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/number_back.number_back]
+[2017.11.28-10.18.13:235][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/number_back]
+[2017.11.28-10.18.13:255][347]LogSavePackage: Save=15.63ms
+[2017.11.28-10.18.13:255][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/number_back_Auto14F0B13BA4D55B701BFA8F486913C3312.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/number_back_Auto1.uasset'
+[2017.11.28-10.18.13:258][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/number_back_Auto1.uasset
+[2017.11.28-10.18.13:260][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/LEOPMA2T] ([1] browsable assets)...
+[2017.11.28-10.18.13:265][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/LEOPMA2T.LEOPMA2T]
+[2017.11.28-10.18.13:265][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/LEOPMA2T]
+[2017.11.28-10.18.13:274][347]LogSavePackage: Save=6.35ms
+[2017.11.28-10.18.13:275][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/LEOPMA2T_Auto1DBE519164EB03E32A1D27ABC92BF9923.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/LEOPMA2T_Auto1.uasset'
+[2017.11.28-10.18.13:278][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/LEOPMA2T_Auto1.uasset
+[2017.11.28-10.18.13:280][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Up3] ([1] browsable assets)...
+[2017.11.28-10.18.13:326][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Up3.Leopard_2A6_Up3]
+[2017.11.28-10.18.13:326][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Up3]
+[2017.11.28-10.18.13:345][347]LogSavePackage: Save=15.10ms
+[2017.11.28-10.18.13:345][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Up3_Auto17030A09E46FA40D5C63645875587CDA6.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Up3_Auto1.uasset'
+[2017.11.28-10.18.13:349][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Up3_Auto1.uasset
+[2017.11.28-10.18.13:351][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/BlackGlass_Base] ([1] browsable assets)...
+[2017.11.28-10.18.13:401][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/BlackGlass_Base.BlackGlass_Base]
+[2017.11.28-10.18.13:401][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/BlackGlass_Base]
+[2017.11.28-10.18.13:428][347]LogSavePackage: Save=14.25ms
+[2017.11.28-10.18.13:429][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/BlackGlass_Base_Auto165BD191C47587D96EA2D50879441C210.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/BlackGlass_Base_Auto1.uasset'
+[2017.11.28-10.18.13:433][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/BlackGlass_Base_Auto1.uasset
+[2017.11.28-10.18.13:435][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Up3] ([1] browsable assets)...
+[2017.11.28-10.18.13:481][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Up3.Up3]
+[2017.11.28-10.18.13:481][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Up3]
+[2017.11.28-10.18.13:481][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.13:501][347]LogSavePackage: Save=16.05ms
+[2017.11.28-10.18.13:501][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up3_Auto19C2A412044D83AC6E29E91BB5632C13F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up3_Auto1.uasset'
+[2017.11.28-10.18.13:504][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up3_Auto1.uasset
+[2017.11.28-10.18.13:506][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/metal_normal_2] ([1] browsable assets)...
+[2017.11.28-10.18.13:517][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/metal_normal_2.metal_normal_2]
+[2017.11.28-10.18.13:517][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/metal_normal_2]
+[2017.11.28-10.18.13:538][347]LogSavePackage: Save=17.72ms
+[2017.11.28-10.18.13:538][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/metal_normal_2_Auto1A685FC1B4AE30F92B9F4E2BF0E5737F0.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/metal_normal_2_Auto1.uasset'
+[2017.11.28-10.18.13:542][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/metal_normal_2_Auto1.uasset
+[2017.11.28-10.18.13:543][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Up4] ([1] browsable assets)...
+[2017.11.28-10.18.13:552][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Up4.Up4]
+[2017.11.28-10.18.13:553][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Up4]
+[2017.11.28-10.18.13:553][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up4" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up4_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.13:568][347]LogSavePackage: Save=12.74ms
+[2017.11.28-10.18.13:569][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up4_Auto15385174045B797B66B26D1B0AD139A9F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up4_Auto1.uasset'
+[2017.11.28-10.18.13:572][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up4_Auto1.uasset
+[2017.11.28-10.18.13:574][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Gun] ([1] browsable assets)...
+[2017.11.28-10.18.13:624][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Gun.Gun]
+[2017.11.28-10.18.13:625][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Gun]
+[2017.11.28-10.18.13:627][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Gun" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Gun_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.13:648][347]LogSavePackage: Save=17.19ms
+[2017.11.28-10.18.13:648][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Gun_Auto1F686F4804A71CD4B5624F4BEA18EAFDF.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Gun_Auto1.uasset'
+[2017.11.28-10.18.13:652][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Gun_Auto1.uasset
+[2017.11.28-10.18.13:654][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Up5] ([1] browsable assets)...
+[2017.11.28-10.18.13:662][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Up5.Up5]
+[2017.11.28-10.18.13:663][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Up5]
+[2017.11.28-10.18.13:663][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up5" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up5_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.13:680][347]LogSavePackage: Save=14.86ms
+[2017.11.28-10.18.13:681][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up5_Auto1397718E546AE9017500877A70116EA67.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up5_Auto1.uasset'
+[2017.11.28-10.18.13:684][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up5_Auto1.uasset
+[2017.11.28-10.18.13:686][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Tank_Base] ([1] browsable assets)...
+[2017.11.28-10.18.13:731][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Tank_Base.Leopard_2A6_Tank_Base]
+[2017.11.28-10.18.13:731][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Tank_Base]
+[2017.11.28-10.18.13:760][347]LogSavePackage: Save=25.50ms
+[2017.11.28-10.18.13:761][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Tank_Base_Auto1ED60D2BC423C6A8A5174EEA44981903D.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Tank_Base_Auto1.uasset'
+[2017.11.28-10.18.13:765][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Tank_Base_Auto1.uasset
+[2017.11.28-10.18.13:767][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/number_001] ([1] browsable assets)...
+[2017.11.28-10.18.13:809][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/number_001.number_001]
+[2017.11.28-10.18.13:809][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/number_001]
+[2017.11.28-10.18.13:830][347]LogSavePackage: Save=18.21ms
+[2017.11.28-10.18.13:830][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/number_001_Auto1C389471D4805773A73F850862D5B98A5.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/number_001_Auto1.uasset'
+[2017.11.28-10.18.13:834][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/number_001_Auto1.uasset
+[2017.11.28-10.18.13:837][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Down2] ([1] browsable assets)...
+[2017.11.28-10.18.13:849][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Down2.Down2]
+[2017.11.28-10.18.13:849][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Down2]
+[2017.11.28-10.18.13:880][347]LogSavePackage: Save=26.34ms
+[2017.11.28-10.18.13:880][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down2_Auto1512DA1134D57A9702839BC96A546AFC1.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down2_Auto1.uasset'
+[2017.11.28-10.18.13:884][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down2_Auto1.uasset
+[2017.11.28-10.18.13:886][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/red_light] ([1] browsable assets)...
+[2017.11.28-10.18.13:926][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/red_light.red_light]
+[2017.11.28-10.18.13:926][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/red_light]
+[2017.11.28-10.18.13:943][347]LogSavePackage: Save=14.78ms
+[2017.11.28-10.18.13:943][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/red_light_Auto18BA4714D4EF9B0FE026DA0A46F0F42F6.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/red_light_Auto1.uasset'
+[2017.11.28-10.18.13:948][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/red_light_Auto1.uasset
+[2017.11.28-10.18.13:950][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Down1] ([1] browsable assets)...
+[2017.11.28-10.18.13:989][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Down1.Down1]
+[2017.11.28-10.18.13:989][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Down1]
+[2017.11.28-10.18.14:007][347]LogSavePackage: Save=14.95ms
+[2017.11.28-10.18.14:007][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down1_Auto128A03D5E47C6D09E0855D0BF80127BFB.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down1_Auto1.uasset'
+[2017.11.28-10.18.14:011][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down1_Auto1.uasset
+[2017.11.28-10.18.14:014][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Down3] ([1] browsable assets)...
+[2017.11.28-10.18.14:022][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Down3.Down3]
+[2017.11.28-10.18.14:022][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Down3]
+[2017.11.28-10.18.14:041][347]LogSavePackage: Save=16.18ms
+[2017.11.28-10.18.14:041][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down3_Auto1F505EF4C44DB029074D2B8A9B8947658.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down3_Auto1.uasset'
+[2017.11.28-10.18.14:045][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down3_Auto1.uasset
+[2017.11.28-10.18.14:048][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/001_2] ([1] browsable assets)...
+[2017.11.28-10.18.14:088][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/001_2.001_2]
+[2017.11.28-10.18.14:088][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/001_2]
+[2017.11.28-10.18.14:108][347]LogSavePackage: Save=16.01ms
+[2017.11.28-10.18.14:108][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/001_2_Auto145899E5F442F872E18D3498809CAA3EA.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/001_2_Auto1.uasset'
+[2017.11.28-10.18.14:112][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/001_2_Auto1.uasset
+[2017.11.28-10.18.14:114][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Down4] ([1] browsable assets)...
+[2017.11.28-10.18.14:124][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Down4.Down4]
+[2017.11.28-10.18.14:124][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Down4]
+[2017.11.28-10.18.14:149][347]LogSavePackage: Save=22.27ms
+[2017.11.28-10.18.14:149][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down4_Auto19157AB1D4283F88E34BF498F0212587C.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down4_Auto1.uasset'
+[2017.11.28-10.18.14:153][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down4_Auto1.uasset
+[2017.11.28-10.18.14:156][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Circle_003_Circle_020] ([1] browsable assets)...
+[2017.11.28-10.18.14:199][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Circle_003_Circle_020.Leopard_2A6_Circle_003_Circle_020]
+[2017.11.28-10.18.14:199][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Circle_003_Circle_020]
+[2017.11.28-10.18.14:219][347]LogSavePackage: Save=17.56ms
+[2017.11.28-10.18.14:220][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Circle_003_Circle_020_Auto1049C52844EE4AE5EDEAEB68EA9DFA9B4.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Circle_003_Circle_020_Auto1.uasset'
+[2017.11.28-10.18.14:224][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Circle_003_Circle_020_Auto1.uasset
+[2017.11.28-10.18.14:226][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/orange_light] ([1] browsable assets)...
+[2017.11.28-10.18.14:267][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/orange_light.orange_light]
+[2017.11.28-10.18.14:267][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/orange_light]
+[2017.11.28-10.18.14:288][347]LogSavePackage: Save=15.45ms
+[2017.11.28-10.18.14:288][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/orange_light_Auto182FF603B449EF1FC7941A2B1ACA598C9.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/orange_light_Auto1.uasset'
+[2017.11.28-10.18.14:291][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/orange_light_Auto1.uasset
+[2017.11.28-10.18.14:294][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Tank_3_001] ([1] browsable assets)...
+[2017.11.28-10.18.14:333][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Tank_3_001.Tank_3_001]
+[2017.11.28-10.18.14:334][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Tank_3_001]
+[2017.11.28-10.18.14:352][347]LogSavePackage: Save=15.01ms
+[2017.11.28-10.18.14:352][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Tank_3_001_Auto1F9AE2C4C46288843EEA1CE8BF797A21B.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Tank_3_001_Auto1.uasset'
+[2017.11.28-10.18.14:356][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Tank_3_001_Auto1.uasset
+[2017.11.28-10.18.14:358][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Rubber_3_001] ([1] browsable assets)...
+[2017.11.28-10.18.14:406][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Rubber_3_001.Rubber_3_001]
+[2017.11.28-10.18.14:406][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Rubber_3_001]
+[2017.11.28-10.18.14:424][347]LogSavePackage: Save=14.15ms
+[2017.11.28-10.18.14:424][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Rubber_3_001_Auto1847520FE484392FF8338818DDB549D4D.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Rubber_3_001_Auto1.uasset'
+[2017.11.28-10.18.14:428][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Rubber_3_001_Auto1.uasset
+[2017.11.28-10.18.14:430][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/vida_3_001] ([1] browsable assets)...
+[2017.11.28-10.18.14:472][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/vida_3_001.vida_3_001]
+[2017.11.28-10.18.14:472][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/vida_3_001]
+[2017.11.28-10.18.14:496][347]LogSavePackage: Save=14.69ms
+[2017.11.28-10.18.14:496][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/vida_3_001_Auto132FBCAED4BAF464A7EE79DB813211D85.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/vida_3_001_Auto1.uasset'
+[2017.11.28-10.18.14:500][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/vida_3_001_Auto1.uasset
+[2017.11.28-10.18.14:503][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/wire_145028177] ([1] browsable assets)...
+[2017.11.28-10.18.14:545][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/wire_145028177.wire_145028177]
+[2017.11.28-10.18.14:546][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/wire_145028177]
+[2017.11.28-10.18.14:566][347]LogSavePackage: Save=17.64ms
+[2017.11.28-10.18.14:566][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/wire_145028177_Auto1B5299CF2430D6E9210A0D38B13AA2CEB.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/wire_145028177_Auto1.uasset'
+[2017.11.28-10.18.14:570][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/wire_145028177_Auto1.uasset
+[2017.11.28-10.18.14:572][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Down5] ([1] browsable assets)...
+[2017.11.28-10.18.14:613][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Down5.Down5]
+[2017.11.28-10.18.14:613][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Down5]
+[2017.11.28-10.18.14:649][347]LogSavePackage: Save=30.03ms
+[2017.11.28-10.18.14:649][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down5_Auto1249D77844463CC9AA48EA991B36FC600.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down5_Auto1.uasset'
+[2017.11.28-10.18.14:653][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down5_Auto1.uasset
+[2017.11.28-10.18.14:655][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Circle_009_Circle_013] ([1] browsable assets)...
+[2017.11.28-10.18.14:700][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Circle_009_Circle_013.Leopard_2A6_Circle_009_Circle_013]
+[2017.11.28-10.18.14:700][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Circle_009_Circle_013]
+[2017.11.28-10.18.14:726][347]LogSavePackage: Save=20.15ms
+[2017.11.28-10.18.14:726][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Circle_009_Circle_013_Auto1DED19A284DAC04A9A53A64A74D37197D.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Circle_009_Circle_013_Auto1.uasset'
+[2017.11.28-10.18.14:731][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Circle_009_Circle_013_Auto1.uasset
+[2017.11.28-10.18.14:734][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Rubber_katok] ([1] browsable assets)...
+[2017.11.28-10.18.14:775][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Rubber_katok.Rubber_katok]
+[2017.11.28-10.18.14:775][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Rubber_katok]
+[2017.11.28-10.18.14:793][347]LogSavePackage: Save=15.12ms
+[2017.11.28-10.18.14:793][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Rubber_katok_Auto11B29CE7448A86E5AC0CE999F03270823.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Rubber_katok_Auto1.uasset'
+[2017.11.28-10.18.14:797][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Rubber_katok_Auto1.uasset
+[2017.11.28-10.18.14:799][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/rubber] ([1] browsable assets)...
+[2017.11.28-10.18.14:809][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/rubber.rubber]
+[2017.11.28-10.18.14:809][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/rubber]
+[2017.11.28-10.18.14:823][347]LogSavePackage: Save=11.36ms
+[2017.11.28-10.18.14:823][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/rubber_Auto1CD50018C4F0F009EA95EB7B2EE4D9594.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/rubber_Auto1.uasset'
+[2017.11.28-10.18.14:827][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/rubber_Auto1.uasset
+[2017.11.28-10.18.14:829][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Tank_katok] ([1] browsable assets)...
+[2017.11.28-10.18.14:870][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Tank_katok.Tank_katok]
+[2017.11.28-10.18.14:870][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Tank_katok]
+[2017.11.28-10.18.14:890][347]LogSavePackage: Save=16.38ms
+[2017.11.28-10.18.14:890][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Tank_katok_Auto15C7599684220798E948777B305BD53BD.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Tank_katok_Auto1.uasset'
+[2017.11.28-10.18.14:894][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Tank_katok_Auto1.uasset
+[2017.11.28-10.18.14:897][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/wheel_red] ([1] browsable assets)...
+[2017.11.28-10.18.14:937][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/wheel_red.wheel_red]
+[2017.11.28-10.18.14:937][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/wheel_red]
+[2017.11.28-10.18.14:958][347]LogSavePackage: Save=15.88ms
+[2017.11.28-10.18.14:958][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/wheel_red_Auto16B42F9064FCE2D49F75DBD8CCE7DF2F3.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/wheel_red_Auto1.uasset'
+[2017.11.28-10.18.14:962][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/wheel_red_Auto1.uasset
+[2017.11.28-10.18.14:964][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Circle_002] ([1] browsable assets)...
+[2017.11.28-10.18.15:006][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Circle_002.Leopard_2A6_Circle_002]
+[2017.11.28-10.18.15:006][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Circle_002]
+[2017.11.28-10.18.15:022][347]LogSavePackage: Save=13.54ms
+[2017.11.28-10.18.15:022][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Circle_002_Auto1A97877C049445C76B5D5C391CACC2E82.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Circle_002_Auto1.uasset'
+[2017.11.28-10.18.15:026][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Circle_002_Auto1.uasset
+[2017.11.28-10.18.15:029][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Tank_001] ([1] browsable assets)...
+[2017.11.28-10.18.15:070][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Tank_001.Tank_001]
+[2017.11.28-10.18.15:071][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Tank_001]
+[2017.11.28-10.18.15:089][347]LogSavePackage: Save=15.62ms
+[2017.11.28-10.18.15:089][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Tank_001_Auto10E2587D947D5321AB926D7AEF228AF58.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Tank_001_Auto1.uasset'
+[2017.11.28-10.18.15:093][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Tank_001_Auto1.uasset
+[2017.11.28-10.18.15:095][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/2_2] ([1] browsable assets)...
+[2017.11.28-10.18.15:106][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/2_2.2_2]
+[2017.11.28-10.18.15:106][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/2_2]
+[2017.11.28-10.18.15:106][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/2_2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/2_2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.15:219][347]LogSavePackage: Save=69.28ms
+[2017.11.28-10.18.15:219][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/2_2_Auto1E811C85140DA735FAA06FEAE2FDFF9BF.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/2_2_Auto1.uasset'
+[2017.11.28-10.18.15:237][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/2_2_Auto1.uasset
+[2017.11.28-10.18.15:240][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Материал_005] ([1] browsable assets)...
+[2017.11.28-10.18.15:280][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Материал_005.Материал_005]
+[2017.11.28-10.18.15:281][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Материал_005]
+[2017.11.28-10.18.15:299][347]LogSavePackage: Save=15.46ms
+[2017.11.28-10.18.15:299][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Материал_005_Auto1414FC77B4E659010A3D80683DBB0DA9F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Материал_005_Auto1.uasset'
+[2017.11.28-10.18.15:302][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Материал_005_Auto1.uasset
+[2017.11.28-10.18.15:305][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/2_3] ([1] browsable assets)...
+[2017.11.28-10.18.15:315][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/2_3.2_3]
+[2017.11.28-10.18.15:315][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/2_3]
+[2017.11.28-10.18.15:315][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/2_3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/2_3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.15:335][347]LogSavePackage: Save=16.77ms
+[2017.11.28-10.18.15:335][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/2_3_Auto175006133421C17FB9E1087AA62FEF37B.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/2_3_Auto1.uasset'
+[2017.11.28-10.18.15:339][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/2_3_Auto1.uasset
+[2017.11.28-10.18.15:341][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Cube_000_Cube_000] ([1] browsable assets)...
+[2017.11.28-10.18.15:392][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Cube_000_Cube_000.Leopard_2A6_Cube_000_Cube_000]
+[2017.11.28-10.18.15:393][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Cube_000_Cube_000]
+[2017.11.28-10.18.15:508][347]LogSavePackage: Save=109.40ms
+[2017.11.28-10.18.15:509][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cube_000_Cube_000_Auto1928AEF84460A6470F8B814A74BB643CC.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cube_000_Cube_000_Auto1.uasset'
+[2017.11.28-10.18.15:520][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cube_000_Cube_000_Auto1.uasset
+[2017.11.28-10.18.15:524][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Box0ewfef] ([1] browsable assets)...
+[2017.11.28-10.18.15:565][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Box0ewfef.Leopard_2A6_Box0ewfef]
+[2017.11.28-10.18.15:565][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Box0ewfef]
+[2017.11.28-10.18.15:703][347]LogSavePackage: Save=90.38ms
+[2017.11.28-10.18.15:704][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Box0ewfef_Auto190DC2E564461F2F190E49482CA3FFF50.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Box0ewfef_Auto1.uasset'
+[2017.11.28-10.18.15:714][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Box0ewfef_Auto1.uasset
+[2017.11.28-10.18.15:721][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Down6] ([1] browsable assets)...
+[2017.11.28-10.18.15:767][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Down6.Down6]
+[2017.11.28-10.18.15:768][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Down6]
+[2017.11.28-10.18.15:789][347]LogSavePackage: Save=18.31ms
+[2017.11.28-10.18.15:789][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down6_Auto1AB75921F4D363AAEC7CD07ACBBA06748.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down6_Auto1.uasset'
+[2017.11.28-10.18.15:793][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Down6_Auto1.uasset
+[2017.11.28-10.18.15:796][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Box72] ([1] browsable assets)...
+[2017.11.28-10.18.15:837][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Box72.Leopard_2A6_Box72]
+[2017.11.28-10.18.15:837][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Box72]
+[2017.11.28-10.18.15:857][347]LogSavePackage: Save=15.53ms
+[2017.11.28-10.18.15:857][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Box72_Auto1E5B41A0C48D97869B73E99B70D6DE141.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Box72_Auto1.uasset'
+[2017.11.28-10.18.15:861][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Box72_Auto1.uasset
+[2017.11.28-10.18.15:863][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/17___Default] ([1] browsable assets)...
+[2017.11.28-10.18.15:922][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/17___Default.17___Default]
+[2017.11.28-10.18.15:922][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/17___Default]
+[2017.11.28-10.18.15:943][347]LogSavePackage: Save=16.15ms
+[2017.11.28-10.18.15:943][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/17___Default_Auto1ACCE81414488B0D70E26CF98B102851E.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/17___Default_Auto1.uasset'
+[2017.11.28-10.18.15:947][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/17___Default_Auto1.uasset
+[2017.11.28-10.18.15:949][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Cylinder80] ([1] browsable assets)...
+[2017.11.28-10.18.15:990][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Cylinder80.Leopard_2A6_Cylinder80]
+[2017.11.28-10.18.15:991][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Cylinder80]
+[2017.11.28-10.18.16:102][347]LogSavePackage: Save=28.30ms
+[2017.11.28-10.18.16:102][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder80_Auto1AA8125814124DD9C6FFDF9882E1D24C1.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder80_Auto1.uasset'
+[2017.11.28-10.18.16:106][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder80_Auto1.uasset
+[2017.11.28-10.18.16:108][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/16___Default] ([1] browsable assets)...
+[2017.11.28-10.18.16:148][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/16___Default.16___Default]
+[2017.11.28-10.18.16:148][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/16___Default]
+[2017.11.28-10.18.16:239][347]LogSavePackage: Save=87.06ms
+[2017.11.28-10.18.16:239][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/16___Default_Auto1389DA31A48A13EE515126C9AA7F37310.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/16___Default_Auto1.uasset'
+[2017.11.28-10.18.16:244][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/16___Default_Auto1.uasset
+[2017.11.28-10.18.16:246][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Cylinder303] ([1] browsable assets)...
+[2017.11.28-10.18.16:286][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Cylinder303.Leopard_2A6_Cylinder303]
+[2017.11.28-10.18.16:287][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Cylinder303]
+[2017.11.28-10.18.16:305][347]LogSavePackage: Save=12.92ms
+[2017.11.28-10.18.16:305][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder303_Auto1AEF5F50D4CD9B575AB440AA7BCD05088.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder303_Auto1.uasset'
+[2017.11.28-10.18.16:309][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder303_Auto1.uasset
+[2017.11.28-10.18.16:311][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Cylinder304] ([1] browsable assets)...
+[2017.11.28-10.18.16:352][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Cylinder304.Leopard_2A6_Cylinder304]
+[2017.11.28-10.18.16:352][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Cylinder304]
+[2017.11.28-10.18.16:367][347]LogSavePackage: Save=12.51ms
+[2017.11.28-10.18.16:367][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder304_Auto1B785CF184439345FEBD687BA927965E1.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder304_Auto1.uasset'
+[2017.11.28-10.18.16:371][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder304_Auto1.uasset
+[2017.11.28-10.18.16:372][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Cylinder305] ([1] browsable assets)...
+[2017.11.28-10.18.16:415][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Cylinder305.Leopard_2A6_Cylinder305]
+[2017.11.28-10.18.16:415][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Cylinder305]
+[2017.11.28-10.18.16:434][347]LogSavePackage: Save=14.43ms
+[2017.11.28-10.18.16:434][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder305_Auto11D4B940145FE9DD1E1A127AED0BD0B68.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder305_Auto1.uasset'
+[2017.11.28-10.18.16:438][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Cylinder305_Auto1.uasset
+[2017.11.28-10.18.16:440][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Up1] ([1] browsable assets)...
+[2017.11.28-10.18.16:492][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Up1.Leopard_2A6_Up1]
+[2017.11.28-10.18.16:492][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Up1]
+[2017.11.28-10.18.16:521][347]LogSavePackage: Save=23.93ms
+[2017.11.28-10.18.16:521][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Up1_Auto1B9652DF34D6F0809A725ACAFEEFAFE8F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Up1_Auto1.uasset'
+[2017.11.28-10.18.16:525][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Up1_Auto1.uasset
+[2017.11.28-10.18.16:527][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Crot2] ([1] browsable assets)...
+[2017.11.28-10.18.16:566][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Crot2.Crot2]
+[2017.11.28-10.18.16:567][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Crot2]
+[2017.11.28-10.18.16:586][347]LogSavePackage: Save=16.11ms
+[2017.11.28-10.18.16:587][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot2_Auto11345BBFC49F09BE95BF26E9AE8DA0B93.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot2_Auto1.uasset'
+[2017.11.28-10.18.16:590][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot2_Auto1.uasset
+[2017.11.28-10.18.16:593][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Crot3] ([1] browsable assets)...
+[2017.11.28-10.18.16:599][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Crot3.Crot3]
+[2017.11.28-10.18.16:599][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Crot3]
+[2017.11.28-10.18.16:608][347]LogSavePackage: Save=6.45ms
+[2017.11.28-10.18.16:608][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot3_Auto1A48DC47A440644EBCE63ADA61116CC1C.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot3_Auto1.uasset'
+[2017.11.28-10.18.16:613][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot3_Auto1.uasset
+[2017.11.28-10.18.16:615][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Crot2_AO] ([1] browsable assets)...
+[2017.11.28-10.18.16:621][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Crot2_AO.Crot2_AO]
+[2017.11.28-10.18.16:621][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Crot2_AO]
+[2017.11.28-10.18.16:631][347]LogSavePackage: Save=6.00ms
+[2017.11.28-10.18.16:631][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot2_AO_Auto1D6098C264CE2A35B425233AB200AA899.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot2_AO_Auto1.uasset'
+[2017.11.28-10.18.16:635][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot2_AO_Auto1.uasset
+[2017.11.28-10.18.16:638][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Crot4] ([1] browsable assets)...
+[2017.11.28-10.18.16:645][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Crot4.Crot4]
+[2017.11.28-10.18.16:645][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Crot4]
+[2017.11.28-10.18.16:655][347]LogSavePackage: Save=6.91ms
+[2017.11.28-10.18.16:655][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot4_Auto1BBC06F3F4548C706DC93318A72C94D98.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot4_Auto1.uasset'
+[2017.11.28-10.18.16:659][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Crot4_Auto1.uasset
+[2017.11.28-10.18.16:661][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Up1] ([1] browsable assets)...
+[2017.11.28-10.18.16:701][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Up1.Up1]
+[2017.11.28-10.18.16:701][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Up1]
+[2017.11.28-10.18.16:702][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up1" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.16:726][347]LogSavePackage: Save=19.47ms
+[2017.11.28-10.18.16:726][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up1_Auto10166AB8944E00A7064D7CF97B6A084B9.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up1_Auto1.uasset'
+[2017.11.28-10.18.16:730][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up1_Auto1.uasset
+[2017.11.28-10.18.16:733][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Up2] ([1] browsable assets)...
+[2017.11.28-10.18.16:741][347]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/tank/Up2.Up2]
+[2017.11.28-10.18.16:741][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Up2]
+[2017.11.28-10.18.16:742][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.16:763][347]LogSavePackage: Save=18.57ms
+[2017.11.28-10.18.16:763][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up2_Auto19A2C927F409D9634A02B7E84D3D203F3.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up2_Auto1.uasset'
+[2017.11.28-10.18.16:767][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up2_Auto1.uasset
+[2017.11.28-10.18.16:769][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Up2] ([1] browsable assets)...
+[2017.11.28-10.18.16:813][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Up2.Leopard_2A6_Up2]
+[2017.11.28-10.18.16:813][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Up2]
+[2017.11.28-10.18.16:831][347]LogSavePackage: Save=15.94ms
+[2017.11.28-10.18.16:832][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Up2_Auto155BF71F1466D6020428E41A62F033B98.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Up2_Auto1.uasset'
+[2017.11.28-10.18.16:836][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Up2_Auto1.uasset
+[2017.11.28-10.18.16:838][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Up6] ([1] browsable assets)...
+[2017.11.28-10.18.16:885][347]OBJ SavePackage:     Rendered thumbnail for [Material /Game/tank/Up6.Up6]
+[2017.11.28-10.18.16:885][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Up6]
+[2017.11.28-10.18.16:885][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up6" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up6_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-10.18.16:905][347]LogSavePackage: Save=17.69ms
+[2017.11.28-10.18.16:906][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up6_Auto1A10DE296422705DA295229B6BE27DD86.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up6_Auto1.uasset'
+[2017.11.28-10.18.16:910][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Up6_Auto1.uasset
+[2017.11.28-10.18.16:912][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/tank/Leopard_2A6_Tube02_001] ([1] browsable assets)...
+[2017.11.28-10.18.16:957][347]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/tank/Leopard_2A6_Tube02_001.Leopard_2A6_Tube02_001]
+[2017.11.28-10.18.16:957][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/tank/Leopard_2A6_Tube02_001]
+[2017.11.28-10.18.16:975][347]LogSavePackage: Save=14.49ms
+[2017.11.28-10.18.16:975][347]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Tube02_001_Auto1D94AE80941625F05ED7702B96E1196D8.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Tube02_001_Auto1.uasset'
+[2017.11.28-10.18.16:979][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Autosaves/Game/tank/Leopard_2A6_Tube02_001_Auto1.uasset
+[2017.11.28-10.18.16:979][347]LogFileHelpers: Auto-saving content packages took 4.012
+[2017.11.28-10.19.43:262][911]LogRenderer: Reallocating scene render targets to support 1020x756 NumSamples 1 (Frame:1).
+[2017.11.28-10.21.07:262][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Плоскость" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Плоскость.uasset" SILENT=true
+[2017.11.28-10.21.07:280][709]LogSavePackage: Save=13.39ms
+[2017.11.28-10.21.07:280][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Плоскость98035013445B4BBE2481CFAF3E919904.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Плоскость.uasset'
+[2017.11.28-10.21.07:289][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Плоскость.uasset
+[2017.11.28-10.21.07:340][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/plane" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/plane.uasset" SILENT=true
+[2017.11.28-10.21.07:358][709]LogSavePackage: Save=15.17ms
+[2017.11.28-10.21.07:358][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/plane54DEE5B94344881C14ED699616C9987C.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/plane.uasset'
+[2017.11.28-10.21.07:366][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/plane.uasset
+[2017.11.28-10.21.07:429][709]LogSavePackage: Save=12.14ms
+[2017.11.28-10.21.07:429][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Tank_Base_001FFEF587C4AAFA1BC478ACB8B0CAE059C.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tank_Base_001.uasset'
+[2017.11.28-10.21.07:436][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tank_Base_001.uasset
+[2017.11.28-10.21.07:485][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/number_back" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/number_back.uasset" SILENT=true
+[2017.11.28-10.21.07:503][709]LogSavePackage: Save=15.62ms
+[2017.11.28-10.21.07:503][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/number_back76CFB47A4FD2F807C67027BDEA1DAFB5.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/number_back.uasset'
+[2017.11.28-10.21.07:511][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/number_back.uasset
+[2017.11.28-10.21.07:524][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/LEOPMA2T" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/LEOPMA2T.uasset" SILENT=true
+[2017.11.28-10.21.07:537][709]LogSavePackage: Save=9.69ms
+[2017.11.28-10.21.07:537][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/LEOPMA2T9B3E4AF542749D79CB576096E96D9BEC.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/LEOPMA2T.uasset'
+[2017.11.28-10.21.07:544][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/LEOPMA2T.uasset
+[2017.11.28-10.21.07:589][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Up3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up3.uasset" SILENT=true
+[2017.11.28-10.21.07:607][709]LogSavePackage: Save=14.72ms
+[2017.11.28-10.21.07:607][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Up3BFD7B6E447C60C0E31686FB8C4D7C734.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up3.uasset'
+[2017.11.28-10.21.07:613][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up3.uasset
+[2017.11.28-10.21.07:669][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/BlackGlass_Base" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/BlackGlass_Base.uasset" SILENT=true
+[2017.11.28-10.21.07:691][709]LogSavePackage: Save=18.65ms
+[2017.11.28-10.21.07:691][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/BlackGlass_Base11D3AAA84EE6F25BB7FF39A3675B2967.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/BlackGlass_Base.uasset'
+[2017.11.28-10.21.07:698][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/BlackGlass_Base.uasset
+[2017.11.28-10.21.07:746][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up3.uasset" SILENT=true
+[2017.11.28-10.21.07:764][709]LogSavePackage: Save=15.31ms
+[2017.11.28-10.21.07:764][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up36864814D42E7B2CD6450E8A7B58F25F3.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up3.uasset'
+[2017.11.28-10.21.07:771][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up3.uasset
+[2017.11.28-10.21.07:786][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/metal_normal_2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/metal_normal_2.uasset" SILENT=true
+[2017.11.28-10.21.08:507][709]LogSavePackage: Save=718.57ms
+[2017.11.28-10.21.08:508][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/metal_normal_2531EDD8C45245CAD2FF1459CE7A0A52B.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/metal_normal_2.uasset'
+[2017.11.28-10.21.08:515][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/metal_normal_2.uasset
+[2017.11.28-10.21.08:530][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up4" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up4.uasset" SILENT=true
+[2017.11.28-10.21.08:634][709]LogSavePackage: Save=101.03ms
+[2017.11.28-10.21.08:635][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up42CD2695C455E4C8498AC8ABDB652838F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up4.uasset'
+[2017.11.28-10.21.08:642][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up4.uasset
+[2017.11.28-10.21.08:694][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Gun" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Gun.uasset" SILENT=true
+[2017.11.28-10.21.08:715][709]LogSavePackage: Save=17.11ms
+[2017.11.28-10.21.08:715][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Gun34F7196546410CDFD12D6CA4149635FE.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Gun.uasset'
+[2017.11.28-10.21.08:723][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Gun.uasset
+[2017.11.28-10.21.08:738][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up5" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up5.uasset" SILENT=true
+[2017.11.28-10.21.08:844][709]LogSavePackage: Save=102.06ms
+[2017.11.28-10.21.08:844][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up5B937203F447F874F07215C88B628D0FA.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up5.uasset'
+[2017.11.28-10.21.08:851][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up5.uasset
+[2017.11.28-10.21.08:898][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Tank_Base" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tank_Base.uasset" SILENT=true
+[2017.11.28-10.21.08:918][709]LogSavePackage: Save=16.97ms
+[2017.11.28-10.21.08:919][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Tank_Base7726CBD041EAA8F75C62189A2E93BBC9.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tank_Base.uasset'
+[2017.11.28-10.21.08:926][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tank_Base.uasset
+[2017.11.28-10.21.08:979][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/number_001" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/number_001.uasset" SILENT=true
+[2017.11.28-10.21.08:999][709]LogSavePackage: Save=17.36ms
+[2017.11.28-10.21.08:999][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/number_001DA6C908F4178EC414AF5B5B999417065.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/number_001.uasset'
+[2017.11.28-10.21.09:022][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/number_001.uasset
+[2017.11.28-10.21.09:045][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Down2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down2.uasset" SILENT=true
+[2017.11.28-10.21.09:358][709]LogSavePackage: Save=309.75ms
+[2017.11.28-10.21.09:358][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down26D6AA5CE4E2ACA28C5BC1BADB390517A.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down2.uasset'
+[2017.11.28-10.21.09:365][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down2.uasset
+[2017.11.28-10.21.09:415][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/red_light" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/red_light.uasset" SILENT=true
+[2017.11.28-10.21.09:433][709]LogSavePackage: Save=14.44ms
+[2017.11.28-10.21.09:433][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/red_lightF4A750AD4D9208D687A1D592C941A25D.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/red_light.uasset'
+[2017.11.28-10.21.09:440][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/red_light.uasset
+[2017.11.28-10.21.09:488][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Down1" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down1.uasset" SILENT=true
+[2017.11.28-10.21.09:506][709]LogSavePackage: Save=15.25ms
+[2017.11.28-10.21.09:507][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down12FE876FB4B6C34D7FD1A768993BEACF3.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down1.uasset'
+[2017.11.28-10.21.09:514][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down1.uasset
+[2017.11.28-10.21.09:527][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Down3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down3.uasset" SILENT=true
+[2017.11.28-10.21.09:871][709]LogSavePackage: Save=339.95ms
+[2017.11.28-10.21.09:871][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down3A35AF42549C9C4D123779A937A7BFF42.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down3.uasset'
+[2017.11.28-10.21.09:879][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down3.uasset
+[2017.11.28-10.21.09:929][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/001_2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/001_2.uasset" SILENT=true
+[2017.11.28-10.21.09:951][709]LogSavePackage: Save=18.78ms
+[2017.11.28-10.21.09:951][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/001_2E1F28FC744903ACE2B109B9CDEE157EA.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/001_2.uasset'
+[2017.11.28-10.21.09:965][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/001_2.uasset
+[2017.11.28-10.21.09:993][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Down4" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down4.uasset" SILENT=true
+[2017.11.28-10.21.10:405][709]LogSavePackage: Save=404.64ms
+[2017.11.28-10.21.10:406][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down41E25974D4AC1FC3C94EC699B1B8861C2.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down4.uasset'
+[2017.11.28-10.21.10:413][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down4.uasset
+[2017.11.28-10.21.10:481][709]LogSavePackage: Save=17.00ms
+[2017.11.28-10.21.10:481][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Circle_003_Circle_0209C813989461346B2CF77D4A02E6D243C.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Circle_003_Circle_020.uasset'
+[2017.11.28-10.21.10:488][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Circle_003_Circle_020.uasset
+[2017.11.28-10.21.10:538][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/orange_light" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/orange_light.uasset" SILENT=true
+[2017.11.28-10.21.10:556][709]LogSavePackage: Save=14.24ms
+[2017.11.28-10.21.10:556][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/orange_lightCDE29E3D4DB938C25A989FAF5C063A00.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/orange_light.uasset'
+[2017.11.28-10.21.10:563][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/orange_light.uasset
+[2017.11.28-10.21.10:614][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Tank_3_001" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_3_001.uasset" SILENT=true
+[2017.11.28-10.21.10:632][709]LogSavePackage: Save=14.96ms
+[2017.11.28-10.21.10:632][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Tank_3_001D6A70B1F4E3AC7599F12C883F3EA6E60.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_3_001.uasset'
+[2017.11.28-10.21.10:639][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_3_001.uasset
+[2017.11.28-10.21.10:691][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Rubber_3_001" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Rubber_3_001.uasset" SILENT=true
+[2017.11.28-10.21.10:709][709]LogSavePackage: Save=14.81ms
+[2017.11.28-10.21.10:709][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Rubber_3_001D1D9B976429A9E1EDEF4CF9FF2F47E60.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Rubber_3_001.uasset'
+[2017.11.28-10.21.10:717][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Rubber_3_001.uasset
+[2017.11.28-10.21.10:766][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/vida_3_001" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/vida_3_001.uasset" SILENT=true
+[2017.11.28-10.21.10:783][709]LogSavePackage: Save=13.52ms
+[2017.11.28-10.21.10:784][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/vida_3_00183F989164D71181B9E9A4A83B88F7525.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/vida_3_001.uasset'
+[2017.11.28-10.21.10:791][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/vida_3_001.uasset
+[2017.11.28-10.21.10:840][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/wire_145028177" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/wire_145028177.uasset" SILENT=true
+[2017.11.28-10.21.10:860][709]LogSavePackage: Save=16.46ms
+[2017.11.28-10.21.10:860][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/wire_145028177A2E8548D49179B1127F3A98B6031A0FF.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/wire_145028177.uasset'
+[2017.11.28-10.21.10:867][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/wire_145028177.uasset
+[2017.11.28-10.21.10:916][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Down5" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down5.uasset" SILENT=true
+[2017.11.28-10.21.10:937][709]LogSavePackage: Save=16.86ms
+[2017.11.28-10.21.10:937][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down58F96EC3C4106F34AEEDA78AB80E193D4.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down5.uasset'
+[2017.11.28-10.21.10:944][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down5.uasset
+[2017.11.28-10.21.11:020][709]LogSavePackage: Save=20.36ms
+[2017.11.28-10.21.11:021][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Circle_009_Circle_0139E05C9834124A59EC8FAEA8AD5E2B5E7.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Circle_009_Circle_013.uasset'
+[2017.11.28-10.21.11:027][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Circle_009_Circle_013.uasset
+[2017.11.28-10.21.11:078][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Rubber_katok" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Rubber_katok.uasset" SILENT=true
+[2017.11.28-10.21.11:096][709]LogSavePackage: Save=14.85ms
+[2017.11.28-10.21.11:096][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Rubber_katokF0D4772442497315FE116AB18C910E6D.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Rubber_katok.uasset'
+[2017.11.28-10.21.11:103][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Rubber_katok.uasset
+[2017.11.28-10.21.11:119][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/rubber" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/rubber.uasset" SILENT=true
+[2017.11.28-10.21.11:209][709]LogSavePackage: Save=86.85ms
+[2017.11.28-10.21.11:209][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/rubber00A549C441F2A4EDBAA0A79E0EBE8E10.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/rubber.uasset'
+[2017.11.28-10.21.11:215][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/rubber.uasset
+[2017.11.28-10.21.11:263][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Tank_katok" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_katok.uasset" SILENT=true
+[2017.11.28-10.21.11:282][709]LogSavePackage: Save=16.37ms
+[2017.11.28-10.21.11:282][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Tank_katok35BB9B6248661CE7FE5689B90C313C10.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_katok.uasset'
+[2017.11.28-10.21.11:289][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_katok.uasset
+[2017.11.28-10.21.11:338][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/wheel_red" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/wheel_red.uasset" SILENT=true
+[2017.11.28-10.21.11:358][709]LogSavePackage: Save=15.11ms
+[2017.11.28-10.21.11:358][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/wheel_redF81B15DA46D35095C608228C28DB4AB3.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/wheel_red.uasset'
+[2017.11.28-10.21.11:365][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/wheel_red.uasset
+[2017.11.28-10.21.11:430][709]LogSavePackage: Save=13.75ms
+[2017.11.28-10.21.11:430][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Circle_00286B70F4B423822CDD0DEF895410556A4.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Circle_002.uasset'
+[2017.11.28-10.21.11:437][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Circle_002.uasset
+[2017.11.28-10.21.11:486][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Tank_001" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_001.uasset" SILENT=true
+[2017.11.28-10.21.11:504][709]LogSavePackage: Save=15.20ms
+[2017.11.28-10.21.11:504][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Tank_001530F96414FE36C4C19A332AB3BB6DE2A.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_001.uasset'
+[2017.11.28-10.21.11:511][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Tank_001.uasset
+[2017.11.28-10.21.11:526][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/2_2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/2_2.uasset" SILENT=true
+[2017.11.28-10.21.11:834][709]LogSavePackage: Save=304.85ms
+[2017.11.28-10.21.11:834][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/2_2F4F0B15A4B625E00E7E1609854B8C363.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/2_2.uasset'
+[2017.11.28-10.21.11:841][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/2_2.uasset
+[2017.11.28-10.21.11:900][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Материал_005" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Материал_005.uasset" SILENT=true
+[2017.11.28-10.21.11:925][709]LogSavePackage: Save=19.67ms
+[2017.11.28-10.21.11:925][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Материал_00514CE570F476020780009F8B3AF163BAB.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Материал_005.uasset'
+[2017.11.28-10.21.11:932][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Материал_005.uasset
+[2017.11.28-10.21.11:948][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/2_3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/2_3.uasset" SILENT=true
+[2017.11.28-10.21.12:259][709]LogSavePackage: Save=307.77ms
+[2017.11.28-10.21.12:260][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/2_381D6665048CC4BD277791CA31636B09A.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/2_3.uasset'
+[2017.11.28-10.21.12:267][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/2_3.uasset
+[2017.11.28-10.21.12:339][709]LogSavePackage: Save=17.48ms
+[2017.11.28-10.21.12:339][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cube_000_Cube_000F7D2C36048ACC8B38F75FC87210357B2.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cube_000_Cube_000.uasset'
+[2017.11.28-10.21.12:348][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cube_000_Cube_000.uasset
+[2017.11.28-10.21.12:395][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Box0ewfef" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Box0ewfef.uasset" SILENT=true
+[2017.11.28-10.21.12:413][709]LogSavePackage: Save=15.14ms
+[2017.11.28-10.21.12:413][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Box0ewfef54A71CCA4378E08C9E3EBE9FDE0E6533.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Box0ewfef.uasset'
+[2017.11.28-10.21.12:421][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Box0ewfef.uasset
+[2017.11.28-10.21.12:468][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Down6" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down6.uasset" SILENT=true
+[2017.11.28-10.21.12:486][709]LogSavePackage: Save=14.80ms
+[2017.11.28-10.21.12:486][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Down67EB9257548E2B4D388E408A66E1D2C5E.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down6.uasset'
+[2017.11.28-10.21.12:494][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Down6.uasset
+[2017.11.28-10.21.12:544][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Box72" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Box72.uasset" SILENT=true
+[2017.11.28-10.21.12:559][709]LogSavePackage: Save=12.31ms
+[2017.11.28-10.21.12:559][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Box72D16210424668C99EF921548A97036A95.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Box72.uasset'
+[2017.11.28-10.21.12:566][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Box72.uasset
+[2017.11.28-10.21.12:624][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/17___Default" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/17___Default.uasset" SILENT=true
+[2017.11.28-10.21.12:641][709]LogSavePackage: Save=13.87ms
+[2017.11.28-10.21.12:641][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/17___Default367C4F4D415781E287185F81C0F76D6F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/17___Default.uasset'
+[2017.11.28-10.21.12:648][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/17___Default.uasset
+[2017.11.28-10.21.12:714][709]LogSavePackage: Save=15.20ms
+[2017.11.28-10.21.12:715][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder8016DCFD314766F7C41CE4D197FCE4F4E9.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder80.uasset'
+[2017.11.28-10.21.12:723][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder80.uasset
+[2017.11.28-10.21.12:777][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/16___Default" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/16___Default.uasset" SILENT=true
+[2017.11.28-10.21.12:797][709]LogSavePackage: Save=16.51ms
+[2017.11.28-10.21.12:797][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/16___DefaultB54C125147F7868EAD8485AEE8D2BAFA.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/16___Default.uasset'
+[2017.11.28-10.21.12:805][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/16___Default.uasset
+[2017.11.28-10.21.12:866][709]LogSavePackage: Save=12.85ms
+[2017.11.28-10.21.12:866][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder30396FDC98945679B53D9D6ECB654D05396.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder303.uasset'
+[2017.11.28-10.21.12:874][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder303.uasset
+[2017.11.28-10.21.12:936][709]LogSavePackage: Save=12.63ms
+[2017.11.28-10.21.12:936][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder304A5D724AC4D744F8E4A95F0978E74022A.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder304.uasset'
+[2017.11.28-10.21.12:944][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder304.uasset
+[2017.11.28-10.21.13:011][709]LogSavePackage: Save=13.84ms
+[2017.11.28-10.21.13:011][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Cylinder3054185039A47B7D133031D0D877D8374BE.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder305.uasset'
+[2017.11.28-10.21.13:019][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Cylinder305.uasset
+[2017.11.28-10.21.13:064][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Up1" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up1.uasset" SILENT=true
+[2017.11.28-10.21.13:081][709]LogSavePackage: Save=13.59ms
+[2017.11.28-10.21.13:081][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Up1F14C0B4548D8B206CD038EBEA77063D6.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up1.uasset'
+[2017.11.28-10.21.13:088][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up1.uasset
+[2017.11.28-10.21.13:147][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Crot2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot2.uasset" SILENT=true
+[2017.11.28-10.21.13:167][709]LogSavePackage: Save=17.51ms
+[2017.11.28-10.21.13:167][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot21F23438D4A9415DF443D698CBC3DE434.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot2.uasset'
+[2017.11.28-10.21.13:175][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot2.uasset
+[2017.11.28-10.21.13:186][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Crot3" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot3.uasset" SILENT=true
+[2017.11.28-10.21.13:211][709]LogSavePackage: Save=22.12ms
+[2017.11.28-10.21.13:211][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot3D899E97946B978188020D9B502765C7E.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot3.uasset'
+[2017.11.28-10.21.13:218][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot3.uasset
+[2017.11.28-10.21.13:229][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Crot2_AO" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot2_AO.uasset" SILENT=true
+[2017.11.28-10.21.13:248][709]LogSavePackage: Save=16.83ms
+[2017.11.28-10.21.13:249][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot2_AOD4F1746C4BEE914912D8139FC397222F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot2_AO.uasset'
+[2017.11.28-10.21.13:255][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot2_AO.uasset
+[2017.11.28-10.21.13:265][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Crot4" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot4.uasset" SILENT=true
+[2017.11.28-10.21.13:292][709]LogSavePackage: Save=22.81ms
+[2017.11.28-10.21.13:292][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Crot460CE331048F7BD06DB5E3BA7EC25AAF4.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot4.uasset'
+[2017.11.28-10.21.13:299][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Crot4.uasset
+[2017.11.28-10.21.13:346][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up1" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up1.uasset" SILENT=true
+[2017.11.28-10.21.13:365][709]LogSavePackage: Save=16.81ms
+[2017.11.28-10.21.13:366][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up1219BAE214A66E739E21FBEA89365365A.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up1.uasset'
+[2017.11.28-10.21.13:373][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up1.uasset
+[2017.11.28-10.21.13:387][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up2.uasset" SILENT=true
+[2017.11.28-10.21.13:773][709]LogSavePackage: Save=383.25ms
+[2017.11.28-10.21.13:773][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up2F8FDF8924FEF9363B4D024ACCB87307F.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up2.uasset'
+[2017.11.28-10.21.13:780][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up2.uasset
+[2017.11.28-10.21.13:828][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Leopard_2A6_Up2" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up2.uasset" SILENT=true
+[2017.11.28-10.21.13:850][709]LogSavePackage: Save=17.79ms
+[2017.11.28-10.21.13:850][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Up284CECCDF49F4FBA6FE03BAAB4AC62976.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up2.uasset'
+[2017.11.28-10.21.13:858][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Up2.uasset
+[2017.11.28-10.21.13:905][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tank/Up6" FILE="../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up6.uasset" SILENT=true
+[2017.11.28-10.21.13:924][709]LogSavePackage: Save=16.43ms
+[2017.11.28-10.21.13:925][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Up691C105CC4E9041F69F1096B34CDDE37E.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up6.uasset'
+[2017.11.28-10.21.13:932][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Up6.uasset
+[2017.11.28-10.21.13:996][709]LogSavePackage: Save=13.71ms
+[2017.11.28-10.21.13:996][709]LogSavePackage: Moving '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Leopard_2A6_Tube02_001300276A4465180FE6B330B9A2D11FDD7.tmp' to '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tube02_001.uasset'
+[2017.11.28-10.21.14:003][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/tank/Leopard_2A6_Tube02_001.uasset
+[2017.11.28-10.21.16:683][753]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.28-10.21.16:684][753]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.28-10.21.16:982][754]Cmd: QUIT_EDITOR
+[2017.11.28-10.21.17:065][754]LogExit: Preparing to exit.
+[2017.11.28-10.21.18:165][754]LogDirectoryWatcher: A directory notification for 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/' was aborted.
+[2017.11.28-10.21.18:207][754]LogExit: Editor shut down
+[2017.11.28-10.21.18:212][754]LogExit: Transaction tracking system shut down
+[2017.11.28-10.21.18:416][754]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.28-10.21.18:416][754]LogExit: Object subsystem successfully closed.
+[2017.11.28-10.21.18:477][754]LogD3D11RHI: Shutdown
+[2017.11.28-10.21.18:477][754]LogD3D11RHI: CleanupD3DDevice
+[2017.11.28-10.21.19:048][754]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.28-10.21.19:093][754]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (526)
+[2017.11.28-10.21.19:093][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.11.28-10.21.19:094][754]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.11.28-10.21.19:094][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.28-10.21.19:094][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.28-10.21.19:095][754]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.28-10.21.19:096][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.28-10.21.19:096][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.28-10.21.19:096][754]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.28-10.21.19:096][754]LogDirectoryWatcher: A directory notification for 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/Collections/' was aborted.
+[2017.11.28-10.21.19:096][754]LogDirectoryWatcher: A directory notification for 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/Developers/giuli/Collections/' was aborted.
+[2017.11.28-10.21.19:096][754]LogDirectoryWatcher: A directory notification for 'C:/Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Saved/Collections/' was aborted.
+[2017.11.28-10.21.19:096][754]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.28-10.21.19:097][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.28-10.21.19:097][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.28-10.21.19:098][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.28-10.21.19:099][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.28-10.21.19:099][754]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.28-10.21.19:099][754]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.28-10.21.19:102][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.28-10.21.19:104][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.28-10.21.19:104][754]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.28-10.21.19:104][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.28-10.21.19:104][754]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.28-10.21.19:104][754]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.28-10.21.19:106][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.28-10.21.19:107][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.28-10.21.19:110][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.28-10.21.19:113][754]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.28-10.21.19:113][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.28-10.21.19:113][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.28-10.21.19:113][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.28-10.21.19:113][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.28-10.21.19:741][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.28-10.21.19:741][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.28-10.21.19:741][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.28-10.21.19:742][754]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.28-10.21.19:742][754]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.28-10.21.19:742][754]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.28-10.21.19:743][754]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.28-10.21.19:743][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.28-10.21.19:744][754]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.28-10.21.19:745][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.28-10.21.19:745][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.28-10.21.19:745][754]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.28-10.21.19:745][754]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.28-10.21.19:745][754]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.28-10.21.19:746][754]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.28-10.21.19:746][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.28-10.21.19:746][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.28-10.21.19:746][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.28-10.21.19:746][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.28-10.21.19:748][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.28-10.21.19:748][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.28-10.21.19:749][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.28-10.21.19:750][754]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.28-10.21.19:750][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.28-10.21.19:794][754]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.28-10.21.19:795][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.28-10.21.19:796][754]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.28-10.21.19:797][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.28-10.21.19:797][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.28-10.21.19:798][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.28-10.21.19:799][754]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.28-10.21.19:800][754]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.28-10.21.19:800][754]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.28-10.21.19:800][754]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.28-10.21.19:801][754]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.28-10.21.19:801][754]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.28-10.21.19:802][754]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.28-10.21.19:803][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.28-10.21.19:804][754]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.28-10.21.19:806][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.28-10.21.19:807][754]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.28-10.21.19:807][754]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.28-10.21.19:858][754]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.28-10.21.19:860][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.28-10.21.19:861][754]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.28-10.21.19:861][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.28-10.21.19:861][754]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.28-10.21.19:861][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.28-10.21.19:863][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.28-10.21.19:863][754]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.28-10.21.19:863][754]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.28-10.21.19:863][754]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.28-10.21.19:864][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.28-10.21.19:864][754]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.28-10.21.19:864][754]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.28-10.21.19:864][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.28-10.21.19:864][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.28-10.21.19:865][754]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.28-10.21.19:866][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.28-10.21.19:866][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.28-10.21.19:866][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.28-10.21.19:866][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.28-10.21.19:867][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.28-10.21.19:868][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.28-10.21.19:868][754]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.28-10.21.19:869][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.28-10.21.19:869][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.28-10.21.19:869][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.28-10.21.19:869][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.28-10.21.19:870][754]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.28-10.21.19:870][754]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.28-10.21.19:872][754]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.28-10.21.19:873][754]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.28-10.21.19:873][754]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.28-10.21.19:875][754]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.28-10.21.19:876][754]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.28-10.21.19:876][754]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.28-10.21.19:876][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.28-10.21.19:876][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.28-10.21.19:876][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.28-10.21.19:978][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.28-10.21.20:078][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.28-10.21.20:080][754]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.28-10.21.20:080][754]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.28-10.21.20:081][754]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.28-10.21.20:083][754]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.28-10.21.20:087][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.28-10.21.20:089][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.28-10.21.20:089][754]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.28-10.21.20:090][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.28-10.21.20:090][754]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.28-10.21.20:106][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.28-10.21.20:108][754]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.28-10.21.20:109][754]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.28-10.21.20:109][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.28-10.21.20:110][754]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.28-10.21.20:110][754]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.28-10.21.20:112][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.28-10.21.20:112][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.28-10.21.20:115][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.28-10.21.20:115][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.28-10.21.20:117][754]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.28-10.21.20:117][754]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.28-10.21.20:120][754]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.28-10.21.20:122][754]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.28-10.21.20:126][754]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.28-10.21.20:126][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.28-10.21.20:126][754]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.28-10.21.20:129][754]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.28-10.21.20:129][754]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.28-10.21.20:134][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.28-10.21.20:134][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.28-10.21.20:134][754]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.28-10.21.20:134][754]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.28-10.21.20:134][754]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.28-10.21.20:134][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.28-10.21.20:289][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.28-10.21.20:289][754]LogDirectoryWatcher: A directory notification for '../../../../../../Users/giuli/Documents/git_rep/ArchImportazioni/ArchImportiamo/Content/' was aborted.
+[2017.11.28-10.21.20:289][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.28-10.21.20:289][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.28-10.21.20:295][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.28-10.21.20:297][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.28-10.21.20:297][754]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.28-10.21.20:297][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.28-10.21.20:297][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.28-10.21.20:297][754]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.28-10.21.20:298][754]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.28-10.21.20:298][754]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.28-10.21.20:301][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.28-10.21.20:347][754]LogDerivedDataCache: Shutdown
+[2017.11.28-10.21.20:347][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.28-10.21.20:347][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.28-10.21.20:348][754]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.28-10.21.20:349][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.28-10.21.20:351][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.28-10.21.20:351][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.28-10.21.20:352][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.28-10.21.20:352][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.28-10.21.20:352][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.28-10.21.20:352][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.28-10.21.20:353][754]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.28-10.21.20:354][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.28-10.21.20:354][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.28-10.21.20:355][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.28-10.21.20:355][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.28-10.21.20:356][754]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.28-10.21.20:357][754]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.28-10.21.20:357][754]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.28-10.21.20:358][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.28-10.21.20:358][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.28-10.21.20:358][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.28-10.21.20:358][754]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.28-10.21.20:361][754]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.28-10.21.20:363][754]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.28-10.21.20:363][754]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.28-10.21.20:364][754]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF290964C-456C-51D3-72E0-FAB840B795A0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=45a8f4cf48de3d1a6c2cc68578b53b47%7C68b28449b37e4eac99203910d9fdba96%7C13bec4b4-8fac-450e-ba5b-0078e25690ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.28-10.21.20:392][754]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.28-10.21.20:399][754]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.28-10.21.20:400][754]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.28-10.21.20:401][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.28-10.21.20:401][754]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.28-10.21.20:404][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.28-10.21.20:404][754]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.28-10.21.20:404][754]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.28-10.21.20:404][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.28-10.21.20:406][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.28-10.21.20:408][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.28-10.21.20:408][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.28-10.21.20:409][754]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.28-10.21.20:409][754]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.28-10.21.20:409][754]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.28-10.21.20:409][754]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.28-10.21.20:409][754]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.28-10.21.20:410][754]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.28-10.21.20:410][754]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.28-10.21.20:413][754]LogExit: Exiting.
+[2017.11.28-10.21.20:423][754]Log file closed, 11/28/17 11:21:20
